@@ -1,0 +1,29 @@
+﻿# ---- Big raster outputs (do NOT commit) ----
+*.tif
+*.tiff
+*.vrt
+*.nc
+*.hdf
+*.h5
+*.grib
+*.grib2
+
+# ---- GIS project temp files ----
+*.aux.xml
+*.qgz~
+*.qgs~
+*.gpkg-journal
+
+# ---- Common archives (often huge) ----
+*.zip
+*.7z
+*.rar
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Secrets ----
+*.env
+**/credentials*
+**/*token*
